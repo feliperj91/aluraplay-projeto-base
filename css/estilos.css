@@ -327,4 +327,25 @@ body {
         height: 225px;
     }
 
+    .menu__lista:nth-child(3){
+        flex-direction: column-reverse;
+    }
+
+    .premium{
+        order: 1;
+    }
+
+    .jogos{
+        order: 3;
+    }
+
+    .filmes {
+        order: 2;
+    }
+
+    .maispagina {
+        order: 4;
+        
+    }
+
 }

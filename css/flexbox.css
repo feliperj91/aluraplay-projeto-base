@@ -63,8 +63,8 @@
 
     .menu__container {
         position: fixed;
-        top: 13%;
-        width: 74px;
+        top: 10rem;
+        width: 110px;
         height: 100%;
 
     }
@@ -87,8 +87,8 @@
 
     .menu__container{
         position: fixed;
-        width: 200px;
-        top: 13%;
+        width: 240px;
+        top: 10rem;
         overflow: scroll;
     }
 
@@ -103,10 +103,16 @@
     .menu__lista {
         display: flex;
         height: auto;
+        padding: 20px 17px 20px 15px;
+        gap: 10px;
 
     }
 
-
+    .menu__itens{
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+    }
 
 
 
